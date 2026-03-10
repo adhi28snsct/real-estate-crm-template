@@ -1,8 +1,8 @@
 'use client';
 
-import { SidebarProvider } from '@/components/ui/sidebar';
-import AppSidebar from '@/components/AppSidebar';
-import Topbar from '@/components/Topbar';
+import { SidebarProvider } from '@/src/components/ui/sidebar';
+import AppSidebar from '@/src/components/AppSidebar';
+import Topbar from '@/src/components/Topbar';
 
 export default function DashboardLayout({
   children,

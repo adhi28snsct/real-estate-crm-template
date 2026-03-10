@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { Plus } from 'lucide-react';
-import LeadsTable from '@/components/LeadsTable';
-import AddLeadModal from '@/components/AddLeadModal';
+import LeadsTable from '@/src/components/LeadsTable';
+import AddLeadModal from '@/src/components/AddLeadModal';
 import { Lead, LeadStatus } from '@/src/types/lead';
 import {
   Select,
@@ -11,8 +11,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Card, CardContent } from "@/components/ui/card";
+} from "@/src/components/ui/select";
+import { Card, CardContent } from "@/src/components/ui/card";
 
 export const INITIAL_LEADS: Lead[] = [
   {

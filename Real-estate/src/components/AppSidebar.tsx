@@ -14,7 +14,7 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
-} from '@/components/ui/sidebar';
+} from '@/src/components/ui/sidebar';
 
 export default function AppSidebar() {
   const pathname = usePathname();

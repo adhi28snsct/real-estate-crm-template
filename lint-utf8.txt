@@ -1,0 +1,19 @@
+﻿
+> real-estate@0.1.0 lint
+> eslint
+
+
+C:\Users\adhit\real-estate\app\dashboard\page.tsx
+  12:69  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\adhit\real-estate\app\leads\page.tsx
+  16:17  warning  'setLeads' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\adhit\real-estate\app\settings\page.tsx
+  68:96  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\adhit\real-estate\components\layout\header.tsx
+  1:10  warning  'UserCircle' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 4 problems (2 errors, 2 warnings)
+

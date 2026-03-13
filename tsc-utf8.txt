@@ -1,0 +1,10 @@
+﻿app/leads/page.tsx(12,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+app/leads/page.tsx(31,26): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & Props<unknown>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & Props<unknown>'.
+app/members/page.tsx(10,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+app/members/page.tsx(22,26): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & Props<unknown>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & Props<unknown>'.
+app/settings/page.tsx(6,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+app/teams/page.tsx(8,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+app/teams/page.tsx(20,26): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & Props<unknown>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & Props<unknown>'.
